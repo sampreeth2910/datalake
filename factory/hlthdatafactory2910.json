@@ -1,0 +1,9 @@
+{
+	"name": "hlthdatafactory2910",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2cee89a9-f683-441b-862a-ea9f5a947e85",
+		"tenantId": "cd3d7711-22c1-4685-ba9f-63114b278172"
+	}
+}
