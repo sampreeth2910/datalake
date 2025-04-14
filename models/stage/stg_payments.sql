@@ -1,4 +1,4 @@
-with source as (
+with source as (select
 ID,
 ORDERID,
 PAYMENTMETHOD,
