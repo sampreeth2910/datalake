@@ -1,0 +1,17 @@
+version: 2 
+
+sources:
+  - name: src_cust_orders
+    database: raw_staging_db
+    schema: src_cust_orders
+    tables:
+      - name: customers
+
+      - name: orders
+
+  - name: src_payments
+    database: raw_staging_db
+    schema: SRC_SCHEMA_PAYMENTS
+    tables:
+      - name: PAYMENT
+      

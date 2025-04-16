@@ -38,6 +38,6 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   datawarehousematrix:
     core:
-      materialized: table 
+      materialized: table    
     stage:
-      materialized: view
+      materialized: table
