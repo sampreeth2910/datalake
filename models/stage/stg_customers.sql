@@ -5,7 +5,7 @@ with source as (
         first_name,
         last_name
 
-    from raw_staging_db.src_cust_orders.customers
+    from {{source("src_cust_orders","CUSTOMERS")}}
 
 )
 

@@ -6,6 +6,6 @@ with source as (
         order_date,
         status
 
-    from raw_staging_db.src_cust_orders.orders
+    from {{source("src_cust_orders","ORDERS")}}
 )
 select * from source
